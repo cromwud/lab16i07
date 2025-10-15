@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Про мене — Олег Кошарний</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #e3f2fd, #f9f9f9);
+      font-family: 'Roboto', sans-serif;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .profile img {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3498db;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .profile img:hover {
+      transform: scale(1.05);
+    }
+
+    .profile h2 {
+      margin-top: 15px;
+      font-size: 24px;
+      color: #2c3e50;
+    }
+
+    .profile p {
+      max-width: 650px;
+      margin: 10px auto;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #3498db;
+    }
+
+    .card p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .nav {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .nav a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .nav a:hover {
+      background-color: #2980b9;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Про мене</h1>
+
+  <div class="profile">
+    <!-- встав шлях до свого фото -->
+    <img src="oleg_kosharniy.jpg" alt="Фото Олега Кошарного">
+    <h2>Олег Кошарний</h2>
+    <p>Я — студент 1 курсу <strong>Київського національного економічного університету імені Вадима Гетьмана</strong>, спеціальність <em>«Економіка»</em>. 
+    Цікавлюсь аналізом, економікою, сучасними технологіями та розвитком особистості. 
+    Маю досвід у сфері продажів і просування онлайн, комунікабельний, легко знаходжу спільну мову з людьми та прагну постійно розвиватись. 
+    </p>
+  </div>
+
+  <h1>Мої інтереси та навички</h1>
+
+  <div class="container">
+    <div class="card">
+      <h2>🔍 Аналітика даних</h2>
+      <p>Мені подобається працювати з даними, вивчати закономірності та створювати моделі для прогнозування економічних процесів.</p>
+    </div>
+
+    <div class="card">
+      <h2>💻 Технології та розвиток</h2>
+      <p>Цікавлюсь ІТ, цифровими продуктами, штучним інтелектом і тим, як технології змінюють бізнес і правову сферу.</p>
+    </div>
+
+    <div class="card">
+      <h2>🧠 Штучний інтелект</h2>
+      <p>Цікавлюсь нейронними мережами, машинним навчанням та їх застосуванням у фінансовій сфері та бізнес-аналітиці.</p>
+    </div>
+
+    <div class="card">
+      <h2>📈 Саморозвиток</h2>
+      <p>Постійно навчаюсь — проходжу онлайн-курси, читаю книги з економіки, технологій та психології.</p>
+    </div>
+  </div>
+
+  <div class="nav">
+    <a href="Головна.html">Головна</a>
+    <a href="Про мене.html">Про мене</a>
+    <a href="предмети.html">Розклад</a>
+  </div>
+
+  <footer>
+    © 2025 Олег Кошарний — студент КНЕУ | Усі права захищено
+  </footer>
+
+</body>
+</html>
